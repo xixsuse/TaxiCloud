@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxiCloud.Core", "TaxiCloud.Core\TaxiCloud.Core.csproj", "{DFC2C990-11E4-4E68-BA96-3078738DA176}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxiCloud.WebApi", "TaxiCloud.WebApi\TaxiCloud.WebApi.csproj", "{CDBFF271-EE48-4BFB-BBF5-0A253961DF3A}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFC2C990-11E4-4E68-BA96-3078738DA176}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFC2C990-11E4-4E68-BA96-3078738DA176}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFC2C990-11E4-4E68-BA96-3078738DA176}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFC2C990-11E4-4E68-BA96-3078738DA176}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDBFF271-EE48-4BFB-BBF5-0A253961DF3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDBFF271-EE48-4BFB-BBF5-0A253961DF3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDBFF271-EE48-4BFB-BBF5-0A253961DF3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDBFF271-EE48-4BFB-BBF5-0A253961DF3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
